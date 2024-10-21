@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #293662;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #293662;
+    color: #fefefe;
+    padding: 20px;
+    text-align: center;
+}
+.hero img {
+    max-height: 400px;
+    object-fit: cover;
+}
+.container {
+    padding: 20px;
+}
+.service {
+    background-color: #293662;
+    color: #fefefe;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2); /* Adicionando sombreamento */
+    text-align: center;
+    transition: transform 0.2s ease; /* Animação de hover */
+}
+.service:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+}
+footer {
+    background-color: #293662;
+    color: #fefefe;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
